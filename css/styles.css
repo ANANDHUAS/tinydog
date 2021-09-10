@@ -1,0 +1,175 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.firstname {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  /* margin-bottom: 20px; */
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2.5em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.row {
+  margin: 45px 0 0 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Downloadbuttons */
+.Downloadbuttons {
+  margin: 5% 3% 5% 0;
+}
+
+/* titleimage */
+.titleimage {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* frature */
+#features {
+  padding: 2% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.featurebox {
+  text-align: center;
+  padding: 5%;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* iconcolor */
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h2 {
+  /* font-family: "Montserrat-Bold"; */
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* testimonial */
+#testimonials {
+  /* padding: 7% 15%; */
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+#press {
+  background-color: #FF4C68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.PRESSLOGO {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing */
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  .titleimage {
+    position: static;
+    transform: rotate(0);
+    padding-top: 10px;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* cta */
+#cta {
+  background-color: #ff4c68;
+}
+
+.la {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  margin: auto;
+}
+
+.db {
+  padding-top: 3%;
+  text-align: center;
+}
+
+.btnl {
+  border: 0;
+}
+
+.bottomicon {
+  border: none;
+  font-size: 25px;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.blast {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
